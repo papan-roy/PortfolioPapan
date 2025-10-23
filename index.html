@@ -5,14 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header>
         <div class="container">
-            <nav class="flex">
-                <div class="left">
+            <nav class="flex items-center space-between">
+                <div class="left flex items-center">
                     <div class="branding">
                         <img src="./images/nav-logo.png" alt="">
                     </div>
@@ -24,12 +27,25 @@
                         <a href="#">Blog</a>
                     </div>
                     <div class="right">
-                        <button>Contact</button>
+                        <button class="btn btn-primary">Contact</button>
 
                     </div>
 
                 </div>
             </nav>
+            <div class="hero flex items-center space-between">
+                <div class="left flex-1 justify-center">
+                    <img src="./images/Heroman.png" alt="">
+                </div>
+                <div class="right flex-1">
+                    <h6>John Cooper</h6>
+                    <h1>I'm a Creative <span>Developer<span></h1>
+                        <div>
+                           <button class="btn btn-secondary">Downlode CV</button>
+                        </div>
+                </div>
+            </div>
+
         </div>
     </header>
 </body>
