@@ -1,3 +1,15 @@
-body{
-    background: red;
+:root{
+    --primary : #61E697;
+    --pure : #FFFFFF;
+    --dark : #232326;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: var(--dark);
 }
