@@ -19,3 +19,8 @@ header {
     padding: 0 15px;
     margin: 0 auto;
 }
+
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+}
