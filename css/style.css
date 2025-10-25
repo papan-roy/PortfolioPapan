@@ -129,6 +129,7 @@ header nav.branding{
 
 .skills .container{
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .skills .section-heading{
@@ -180,4 +181,49 @@ header nav.branding{
 
 .skills .card-wrapper .card:hover{
     background: var(--pure);
+}
+
+.slidr .slide img{
+    width: 500px;
+    height: 280px;
+    margin-top: 3rem;
+    margin-bottom:3rem;
+}
+
+.projects h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+.slider .slide{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects .slider-dot .dots{
+    list-style-type:none;
+    display:flex! important;
+    justify-content: center;
+}
+
+.projects .slider-dot button{
+    font-size: 0;
+    width: 8px;
+    height: 5px;
+    margin-right: 5px;
+    border: none;
+    outline: none;
+    background:#898989;
+    border-radius: 50px;
+    cursor:pointer;
+
+}
+
+.projects .dots li.slick-active button{
+    background: var(--primary);
+    width: 16px;
 }
