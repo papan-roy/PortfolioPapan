@@ -183,11 +183,15 @@ header nav.branding{
     background: var(--pure);
 }
 
-.slidr .slide img{
+.slider .slide img{
     width: 500px;
     height: 280px;
     margin-top: 3rem;
-    margin-bottom:3rem;
+    margin-bottom:2rem;
+}
+
+.projects .container{
+    margin-bottom: 100px;
 }
 
 .projects h1{

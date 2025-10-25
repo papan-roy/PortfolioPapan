@@ -3,7 +3,7 @@ $(document).ready(function(){
         arrows: false,
         dots: true,
         appendDots: '.slider-dot',
-        dotsclass: 'dots'
+        dotsClass: 'dots'
     })
 
 });
