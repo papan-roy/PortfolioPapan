@@ -231,3 +231,53 @@ header nav.branding{
     background: var(--primary);
     width: 16px;
 }
+
+.myblog{
+    background: var(--dark);
+    padding-bottom: 100px;
+}
+
+.myblog .section-heading{
+    color: var(--pure);
+}
+
+.myblog .section-heading span{
+    color: var(--primary);
+
+}
+
+.myblog .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3rem;
+}
+
+.myblog .card-wrapper .card{
+    background: var(--pure);
+}
+
+.myblog .card-wrapper .card-content{
+    padding: 2rem;
+}
+
+.myblog .card-content h1{
+    margin-bottom: 1rem;
+}
+
+.myblog .card-content p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.myblog .card-content a{
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.myblog .section-heading + p{
+    margin-bottom: 3rem;
+}
+
+.myblog .section-heading{
+    padding-top: 2rem;
+}
