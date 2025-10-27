@@ -1,15 +1,16 @@
 @import 'utilities.css';
 
-:root{
-    --primary : #61E697;
-    --pure : #FFFFFF;
-    --dark : #232326;
-}
-body{
-    font-family:'poppins',sans-serif;
+:root {
+    --primary: #61E697;
+    --pure: #FFFFFF;
+    --dark: #232326;
 }
 
-*{
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,21 +21,21 @@ header {
     clip-path: polygon(0 0, 100% 0, 100%, 70% 87%, 0 100%);
 }
 
-.container{
+.container {
     max-width: 1152px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
-header nav .left a{
+header nav .left a {
     color: var(--pure);
-    margin-right:2rem;
-    text-transform:uppercase;
+    margin-right: 2rem;
+    text-transform: uppercase;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
-header nav.left a:hover{
+header nav.left a:hover {
     color: var(--primary);
 }
 
@@ -42,108 +43,106 @@ header nav {
     padding: 2rem 0;
 }
 
-header nav.branding{
+header nav.branding {
     margin-right: 10rem;
-    
+
 }
 
-.hero{
+.hero {
     padding-bottom: 5rem;
 
 }
 
-.hero .left img{
+.hero .left img {
     width: 400px;
     border-radius: 500px;
 }
 
-.hero .right{
+.hero .right {
     color: var(--pure);
     margin-top: -5rem;
 }
 
-.hero .right h6{
+.hero .right h6 {
     font-size: 1.6rem;
     margin-bottom: 2rem;
 }
 
-.hero .right h1{
+.hero .right h1 {
     font-size: 4rem;
-    font-weight:100;
+    font-weight: 100;
     line-height: 1.2;
     margin-bottom: 1rem;
 }
 
-.hero .right h1 span{
+.hero .right h1 span {
     color: var(--primary);
 
 }
 
-.about{
+.about {
     padding: 3rem 0;
 }
 
-.about .social a img{
+.about .social a img {
     height: 30px;
     margin-top: 1rem;
     margin-right: 10px;
 }
 
-.about .left img{
+.about .left img {
     height: 500px;
     border-radius: 1000px;
 }
 
-.about .right h1{
+.about .right h1 {
     font-size: 50px;
 }
 
-.about .right h1 span{
+.about .right h1 span {
     color: var(--primary);
 }
 
-.about .right h1{
+.about .right h1 {
     font-size: 20px;
     line-height: 3;
 }
 
-.about .right p{
+.about .right p {
     font-size: 20px;
 }
 
-.skills{
+.skills {
     background: var(--dark);
-    clip-path: polygon(
-        74% 7%,
-        100% 0,
-        100% 35%,
-        100% 70%,
-        100% 100%,
-        50% 100%,
-        0 100%,
-        0% 70%,
-        0% 35%,
-        0 0
-    );
+    clip-path: polygon(74% 7%,
+            100% 0,
+            100% 35%,
+            100% 70%,
+            100% 100%,
+            50% 100%,
+            0 100%,
+            0% 70%,
+            0% 35%,
+            0 0);
 }
 
-.skills .container{
+.skills .container {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.skills .section-heading{
+.skills .section-heading {
     color: var(--pure);
     font-size: 3rem;
     text-align: center;
     margin-bottom: 1rem;
 }
 
-.skills .section-heading span{
+.skills .section-heading span {
     color: var(--primary);
 }
 
-.section-heading + p {
+.section-heading+p {
     color: var(--pure);
     text-align: center;
     margin-bottom: 6rem;
@@ -151,26 +150,26 @@ header nav.branding{
 
 
 
-.skills .card-wrapper{
+.skills .card-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap : 2rem;
-    grid-row-gap : 6rem;
+    grid-column-gap: 2rem;
+    grid-row-gap: 6rem;
 }
 
-.skills .card-wrapper .card{
+.skills .card-wrapper .card {
     background: var(--pure);
     padding: 3rem 2rem;
-    position:relative;
+    position: relative;
     text-align: center;
     transform: all 0.3s ease;
 }
 
-.skills .card-wrapper .card h2{
+.skills .card-wrapper .card h2 {
     margin-bottom: 1rem;
 }
 
-.card-wrapper img{
+.card-wrapper img {
     height: 100px;
     position: absolute;
     top: -3.5rem;
@@ -179,105 +178,69 @@ header nav.branding{
 
 }
 
-.skills .card-wrapper .card:hover{
+.skills .card-wrapper .card:hover {
     background: var(--pure);
 }
 
-.slider .slide img{
+.slider .slide img {
     width: 500px;
     height: 280px;
     margin-top: 3rem;
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
 }
 
-.projects .container{
+.projects .container {
     margin-bottom: 100px;
 }
 
-.projects h1{
+.projects h1 {
     font-size: 3rem;
     text-align: center;
     margin-top: 1rem;
 
 }
 
-.slider .slide{
+.slider .slide {
     text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.projects .slider-dot .dots{
-    list-style-type:none;
-    display:flex! important;
+.projects .slider-dot .dots {
+    list-style-type: none;
+    display: flex ! important;
     justify-content: center;
 }
 
-.projects .slider-dot button{
+.projects .slider-dot button {
     font-size: 0;
     width: 8px;
     height: 5px;
     margin-right: 5px;
     border: none;
     outline: none;
-    background:#898989;
+    background: #898989;
     border-radius: 50px;
-    cursor:pointer;
+    cursor: pointer;
 
 }
 
-.projects .dots li.slick-active button{
+.projects .dots li.slick-active button {
     background: var(--primary);
     width: 16px;
 }
 
-.myblog{
+.myblog {
     background: var(--dark);
     padding-bottom: 100px;
 }
 
-.myblog .section-heading{
+.myblog .section-heading {
     color: var(--pure);
 }
 
-.myblog .section-heading span{
-    color: var(--primary);
 
-}
 
-.myblog .card-wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 3rem;
-}
 
-.myblog .card-wrapper .card{
-    background: var(--pure);
-}
 
-.myblog .card-wrapper .card-content{
-    padding: 2rem;
-}
-
-.myblog .card-content h1{
-    margin-bottom: 1rem;
-}
-
-.myblog .card-content p{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.myblog .card-content a{
-    color: var(--dark);
-    text-decoration: none;
-}
-
-.myblog .section-heading + p{
-    margin-bottom: 3rem;
-}
-
-.myblog .section-heading{
-    padding-top: 2rem;
-}
